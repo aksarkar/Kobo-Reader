@@ -14,6 +14,6 @@ pushd ${ARCHIVEDIR}
 		Makefile
 	# OpenSSL's Makefile is buggy; avoid parallel make
 	$MAKE
-	$MAKE install
+	$MAKE install_sw
 popd
 markbuilt
